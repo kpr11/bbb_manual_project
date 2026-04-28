@@ -1,1 +1,13 @@
 buildroot/output/
+# Ignore everything in the linux directory except the source
+linux-7.0/*.o
+linux-7.0/*.ko
+linux-7.0/*.cmd
+linux-7.0/*.mod
+linux-7.0/*.mod.c
+linux-7.0/*.order
+linux-7.0/*.symvers
+linux-7.0/vmlinux
+linux-7.0/System.map
+linux-7.0/arch/arm/boot/zImage
+linux-7.0/arch/arm/boot/dts/*.dtb
