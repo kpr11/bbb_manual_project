@@ -1,1 +1,0 @@
-sudo apt install -y u-boot-tools device-tree-compiler gcc-arm-linux-gnueabihf
