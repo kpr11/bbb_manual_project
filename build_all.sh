@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo "===== Building U-Boot ====="
-bash scripts/build_uboot.sh
+bash build_uboot.sh
 
 echo "===== Building Kernel ====="
-bash scripts/build_kernel.sh
+bash build_kernel.sh
 
 echo "===== Building RootFS ====="
-bash scripts/build_rootfs.sh
+bash build_rootfs.sh
 
 echo "===== DONE ====="
